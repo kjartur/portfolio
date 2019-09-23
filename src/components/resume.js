@@ -12,24 +12,18 @@ class Resume extends Component {
         <Grid>
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
-              <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-                alt="avatar"
-                style={{height: '200px'}}
-                 />
+
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Paul Hanna</h2>
-            <h4 style={{color: 'grey'}}>Programmer</h4>
+            <h2 style={{paddingTop: '2em'}}>Kjartan Manvelyan</h2>
+            <h4 style={{color: 'lightgrey'}}>Fullstack Developer / Devops Engineer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>I'm a Scandinavian fullstack developer and entrepreneur, and an alumni of Le Wagon.
+               My current main interests are DevOps and web application development. But a developer should never be tied to one language, so I'm constantly adapting to new systems and frameworks. I am currently in the process of taking the AWS Solutions Architect Associate certification.
+            </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
-            <h5>Phone</h5>
-            <p>(123) 456-7890</p>
-            <h5>Email</h5>
-            <p>someone@example.com</p>
+            <h5>Residence</h5>
+            <p>Berlin, Germany</p>
             <h5>Web</h5>
             <p>mywebsite.com</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
@@ -39,19 +33,19 @@ class Resume extends Component {
 
 
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
+              startYear={2019}
+              endYear={2019}
+              schoolName="Le Wagon Fullstack Dev Bootcamp"
               schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
                />
 
                <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName="My 2nd University"
+                 startYear={2003}
+                 endYear={2004}
+                 schoolName="Norwegian University of Science and Technology"
                  schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
                   />
-                <hr style={{borderTop: '3px solid #e22947'}} />
+                <hr style={{borderTop: '3px solid #f0145f'}} />
 
               <h2>Experience</h2>
 
@@ -68,24 +62,36 @@ class Resume extends Component {
                 jobName="Second Job"
                 jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
                 />
-              <hr style={{borderTop: '3px solid #e22947'}} />
+              <hr style={{borderTop: '3px solid #f0145f'}} />
               <h2>Skills</h2>
               <Skills
-                skill="javascript"
-                progress={100}
+                skill="Ruby"
+                progress={50}
                 />
                 <Skills
-                  skill="HTML/CSS"
-                  progress={80}
-                  />
-                  <Skills
-                    skill="NodeJS"
-                    progress={50}
+                    skill="JavaScript"
+                    progress={30}
                     />
                     <Skills
-                      skill="React"
-                      progress={25}
+                      skill="HTML/CSS"
+                      progress={80}
                       />
+                      <Skills
+                        skill="NodeJS"
+                        progress={25}
+                        />
+                        <Skills
+                          skill="React"
+                          progress={25}
+                          />
+                          <Skills
+                            skill="AWS"
+                            progress={35}
+                            />
+                            <Skills
+                            skill="Kubernetes"
+                            progress={20}
+                            />
 
 
           </Cell>

@@ -15,13 +15,12 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/Wk4KLqQ/Screen-Shot-2019-09-23-at-06-35-33.png) center / cover'}} >Ruby on Rails project</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              NABO is a non-monetary social platform where users can help each other through the exchange of time.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -36,9 +35,8 @@ class Projects extends Component {
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+
+              <Button colored>Link</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -66,15 +64,26 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 1) {
       return (
-        <div><h1>This is Angular</h1></div>
+        <div className="projects-grid">
+          {/* Project 1 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/Wk4KLqQ/Screen-Shot-2019-09-23-at-06-35-33.png) center / cover'}} >AWS Solutions Architect Associate</CardTitle>
+            <CardText>
+              AWS Solutions Architect Associate certification.
+            </CardText>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          </div>
       )
     } else if(this.state.activeTab === 2) {
       return (
-        <div><h1>This is VueJS</h1></div>
+        <div><h1>This is Wordpress</h1></div>
       )
     } else if(this.state.activeTab === 3) {
       return (
-        <div><h1>This is MongoDB</h1></div>
+        <div><h1>This is Shopify</h1></div>
       )
     }
 
@@ -86,10 +95,10 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>Ruby on Rails/React</Tab>
+          <Tab>AWS</Tab>
+          <Tab>Wordpress</Tab>
+          <Tab>Shopify</Tab>
         </Tabs>
 
 
