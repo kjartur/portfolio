@@ -1,6 +1,7 @@
 {
   "name": "myportfoliosite",
   "version": "0.1.0",
+  "homepage": "https://kjartur.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
@@ -14,7 +15,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
 
-"homepage": "https://kjartur.github.io/portfolio/"
+
