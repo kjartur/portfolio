@@ -30,9 +30,9 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/qjSMD87/Screen-Shot-2019-09-23-at-10-09-46.png) center / cover'}} >React portfolio</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              The site you are currently browsing; A React based personal portfolio app using create-react-app and React Router v4.
             </CardText>
             <CardActions border>
 

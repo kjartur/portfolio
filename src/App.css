@@ -122,3 +122,7 @@
   padding: 8px;
 }
 
+.resume_text p {
+  color: lightgrey;
+  font-weight: bold;
+}

@@ -16,7 +16,7 @@ class Landing extends Component {
 
             <div className="banner-text">
               <h1>Kjartan Manvelyan</h1>
-          <h3>Software Developer | Jr. DevOps Engineer</h3>
+          <h3><i>Fullstack Developer | Jr. DevOps Engineer</i></h3>
           <p>This site is running on React/HTML/CSS, and is hosted on a Kubernetes cluster on AWS.</p>
             <hr/>
 
