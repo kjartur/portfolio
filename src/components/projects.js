@@ -87,7 +87,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/yVxHg3F/Screen-Shot-2019-09-25-at-03-31-56.png) center / cover'}} >Wordpress #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/yVxHg3F/Screen-Shot-2019-09-25-at-03-31-56.png) center / cover'}} >Showreel</CardTitle>
             <CardText>
               Wordpress fullscreen video page. Portofolio site for my work as a filmmaker and photographer.
             </CardText>
