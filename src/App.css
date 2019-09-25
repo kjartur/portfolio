@@ -137,3 +137,7 @@
 .resume_text h2 {
   color: #ffffff;
 }
+
+.mdl-tabs__tab-bar {
+  border-bottom: none !important;
+}
