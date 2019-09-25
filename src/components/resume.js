@@ -82,7 +82,7 @@ class Resume extends Component {
                       />
                       <Skills
                         skill="Linux"
-                        progress={25}
+                        progress={50}
                         />
                         <Skills
                           skill="React"
