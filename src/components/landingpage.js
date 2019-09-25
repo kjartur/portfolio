@@ -17,7 +17,7 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Kjartan Manvelyan</h1>
           <h3><i>Fullstack Developer | Jr. DevOps Engineer</i></h3>
-          <p>This site is running on React/HTML/CSS, and is hosted on a Kubernetes cluster on AWS.</p>
+          <p>I'm a Scandinavian fullstack developer and entrepreneur, and an alumni of Le Wagon, a top ranked coding school. My main interests are DevOps and web application development. I'm a big fan of cloud computing and automation.</p>
             <hr/>
 
           <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Docker | AWS</p>
@@ -25,12 +25,12 @@ class Landing extends Component {
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.linkedin.com/in/kjartanmanvelyan/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
 
           {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="http://github.com/kjartur" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
 

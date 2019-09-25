@@ -15,9 +15,11 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/Wk4KLqQ/Screen-Shot-2019-09-23-at-06-35-33.png) center / cover'}} >Ruby on Rails project</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/Wk4KLqQ/Screen-Shot-2019-09-23-at-06-35-33.png) center / cover'}} >NABO</CardTitle>
             <CardText>
               NABO is a non-monetary social platform where users can help each other through the exchange of time.
+
+              Built on Ruby on Rails / HTML5 / CSS and JavaScript.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
