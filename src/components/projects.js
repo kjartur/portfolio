@@ -22,8 +22,8 @@ class Projects extends Component {
               Built on Ruby on Rails / HTML5 / CSS and JavaScript.
             </CardText>
             <CardActions border>
-              <Button colored><a href="https://github.com/kjartur/nabo">GitHub</a></Button>
-              <Button colored><a href="https://www.nabo.world">Live Demo</a></Button>
+              <Button colored><a href="https://github.com/kjartur/nabo" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+              <Button colored><a href="https://www.nabo.world" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -38,7 +38,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
 
-              <Button colored><a href="https://github.com/kjartur/portfolio">GitHub</a></Button>
+              <Button colored><a href="https://github.com/kjartur/portfolio" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -52,8 +52,8 @@ class Projects extends Component {
               AirBnB-clone built on Ruby on Rails. thought.food is a platform where people can meet to share meals and discuss interesting topics.
             </CardText>
             <CardActions border>
-              <Button colored><a href="https://github.com/kjartur/mealshare">GitHub</a></Button>
-              <Button colored><a href="http://mealshare-berlin.herokuapp.com">Live Demo</a></Button>
+              <Button colored><a href="https://github.com/kjartur/mealshare" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+              <Button colored><a href="http://mealshare-berlin.herokuapp.com" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -74,7 +74,7 @@ class Projects extends Component {
             </CardText>
              <CardActions border>
 
-              <Button colored><a href="https://halo.coffee">Live Site</a></Button>
+              <Button colored><a href="https://halo.coffee" target="_blank" rel="noopener noreferrer">Live Site</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -93,7 +93,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
 
-              <Button colored><a href="https://www.kjartanmanvelyan.com">Live Site</a></Button>
+              <Button colored><a href="https://www.kjartanmanvelyan.com" target="_blank" rel="noopener noreferrer">Live Site</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
