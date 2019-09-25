@@ -20,7 +20,7 @@ class Landing extends Component {
           <p>I'm a Scandinavian fullstack developer and entrepreneur, and an alumni of Le Wagon, a top ranked coding school. My main interests are DevOps and web application development. I'm a big fan of cloud computing and automation.</p>
             <hr/>
 
-          <p>HTML/CSS | Ruby/Rails | JavaScript | React | Git | Docker | AWS</p>
+          <p><b>HTML/CSS | Ruby/Rails | JavaScript | React | Git | Docker | AWS</b></p>
 
         <div className="social-links">
 

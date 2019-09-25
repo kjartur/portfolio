@@ -112,7 +112,7 @@
 }
 
 .banner-text p {
-  color: white !important;
+  color: #a2bba2 !important;
   font-size: 20px;
   padding: 1em;
 }
@@ -131,7 +131,8 @@
 }
 
 .resume_text p {
-  color: lightgrey;
+  color: white;
+  font-size: 15px;
   font-weight: 500;
 }
 
