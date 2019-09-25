@@ -16,11 +16,11 @@ class Landing extends Component {
 
             <div className="banner-text">
               <h1>Kjartan Manvelyan</h1>
-          <h3><i>Fullstack Developer | Jr. DevOps Engineer</i></h3>
+          <h3><i>Software Developer</i></h3>
           <p>I'm a Scandinavian fullstack developer and entrepreneur, and an alumni of Le Wagon, a top ranked coding school. My main interests are DevOps and web application development. I'm a big fan of cloud computing and automation.</p>
             <hr/>
 
-          <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Docker | AWS</p>
+          <p>HTML/CSS | Ruby/Rails | JavaScript | React | Git | Docker | AWS</p>
 
         <div className="social-links">
 
@@ -34,14 +34,9 @@ class Landing extends Component {
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
 
-          {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          {/* AngelList */}
+          <a href="https://angel.co/kjartan-manvelyan" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-angellist" aria-hidden="true" />
-          </a>
-
-          {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-vimeo-square" aria-hidden="true" />
           </a>
 
         </div>

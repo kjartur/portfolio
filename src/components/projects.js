@@ -32,7 +32,7 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/qjSMD87/Screen-Shot-2019-09-23-at-10-09-46.png) center / cover'}} >React portfolio</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/qjSMD87/Screen-Shot-2019-09-23-at-10-09-46.png) center / cover'}} >Portfolio</CardTitle>
             <CardText>
               The site you are currently browsing; A React based personal portfolio app using create-react-app and React Router v4.
             </CardText>
@@ -47,9 +47,9 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/mH25QXN/Screen-Shot-2019-09-25-at-03-24-22.png) center / cover'}} >thought.food</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              AirBnB-clone built on Ruby on Rails. thought.food is a platform where people can meet to share meals and discuss interesting topics.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -69,10 +69,14 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/Wk4KLqQ/Screen-Shot-2019-09-23-at-06-35-33.png) center / cover'}} >AWS Solutions Architect Associate</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/tJZZHqd/Screen-Shot-2019-09-25-at-03-54-48.png) center / cover'}} >Shopify webstore</CardTitle>
             <CardText>
-              AWS Solutions Architect Associate certification.
+              Global organic coffee brand. Customized theme (Ruby/Shopify).
             </CardText>
+             <CardActions border>
+
+              <Button colored>Link</Button>
+            </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
@@ -81,7 +85,22 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 2) {
       return (
-        <div><h1>This is Wordpress</h1></div>
+        <div className="projects-grid">
+          {/* Project 1 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/yVxHg3F/Screen-Shot-2019-09-25-at-03-31-56.png) center / cover'}} >Wordpress #1</CardTitle>
+            <CardText>
+              Wordpress fullscreen video page. Portofolio site for my work as a filmmaker and photographer.
+            </CardText>
+            <CardActions border>
+
+              <Button colored>Link</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          </div>
       )
     } else if(this.state.activeTab === 3) {
       return (
@@ -97,10 +116,9 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>Ruby on Rails/React</Tab>
-          <Tab>AWS</Tab>
-          <Tab>Wordpress</Tab>
+          <Tab>Rails/React</Tab>
           <Tab>Shopify</Tab>
+          <Tab>Wordpress</Tab>
         </Tabs>
 
 

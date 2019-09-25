@@ -14,18 +14,17 @@ class Resume extends Component {
             <div style={{textAlign: 'center'}}>
 
             </div>
-
-            <h2 style={{paddingTop: '2em'}}>Kjartan Manvelyan</h2>
-            <h4 style={{color: 'white'}}><i>Fullstack Developer / Devops Engineer</i></h4>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <div class="resume_text">
+            <h2 style={{paddingTop: '2em'}}>Kjartan Manvelyan</h2>
+            <h4 style={{color: 'white'}}>Software Developer</h4>
+            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <p>I'm a Scandinavian fullstack developer and entrepreneur, and an alumni of Le Wagon, a top ranked coding school. My main interests are DevOps and web application development. But a developer should never be tied to one language, so I'm constantly adapting to new systems and frameworks.
             <p></p><p>I am currently in the process of taking the AWS Solutions Architect Associate certification.</p>
             </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <h5><i>Residence</i></h5>
+            <h5>RESIDENCE</h5>
             <p>Berlin, Germany</p>
-            <h5><i>Working permit</i></h5>
+            <h5>WORKING PERMIT</h5>
             <p>I have <b>full</b> working permissions both in EU and Norway.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             </div>
