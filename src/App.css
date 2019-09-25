@@ -20,6 +20,11 @@
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
+  margin-bottom: 20px;
+}
+
+.projects-grid a {
+  color: grey;
 }
 
 /* Resume Page css */
@@ -144,4 +149,8 @@
 
 .mdl-tabs__tab-bar {
   border-bottom: none !important;
+}
+
+.mdl-card__supporting-text {
+  width: 92% !important;
 }
