@@ -86,7 +86,7 @@
 
 .banner-text {
   background-color: black;
-  opacity: .6;
+  opacity: .5;
   width: 75%;
   margin: auto;
   border-radius: 10px;
@@ -144,7 +144,7 @@
   color: #ffffff;
 }
 .resume-right-col {
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 .mdl-tabs__tab-bar {
