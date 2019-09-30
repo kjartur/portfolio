@@ -16,7 +16,7 @@ class Resume extends Component {
             </div>
             <div class="resume_text">
             <h2 style={{paddingTop: '2em'}}>Biography</h2>
-            <h4 style={{color: 'white'}}>Kjartan Manvelyan, Software Developer</h4>
+            <h4 style={{color: 'white'}}>Kjartan Manvelyan</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <p>Hi, I'm Kjartan, a Norwegian fullstack developer and entrepreneur. I grew up on a small island on the Arctic Circle, and have been a technologist since I built my first computer in the 80s. My main interests are DevOps and web application development.
             <p></p><p>I am currently in the process of taking the AWS Solutions Architect Associate certification, and plan to move on to Kubernetes thereafter.</p>
@@ -46,7 +46,7 @@ class Resume extends Component {
                  startYear={2003}
                  endYear={2004}
                  schoolName="Norwegian University of Science and Technology"
-                 schoolDescription="I was headhunted to a consultant position at <i>Norwegian Data Centre</i> after the first semester. Since I also studied computer science at Nesna University College at the age of 16, I have about half of a bachelors degree in Computer Science."
+                 schoolDescription="I was headhunted to a consultant position at Norwegian Data Centre after the first semester. Since I also studied computer science at Nesna University College at the age of 16, I have about half of a bachelors degree in Computer Science."
                   />
 
                   <Education
@@ -89,11 +89,18 @@ class Resume extends Component {
                     />
 
                     <Experience
-                    startYear={2012}
-                    endYear={2014}
-                    jobName="Managing Director, Mørketid "
-                    jobDescription="Mørketid was a Norwegian media production company that produced music videos, commercial videos and photography services across the country."
-                    />
+                      startYear={2012}
+                      endYear={2014}
+                      jobName="Managing Director, Mørketid "
+                      jobDescription="Mørketid was a Norwegian media production company that produced music videos, commercial videos and photography services across the country."
+                      />
+
+                      <Experience
+                        startYear={2002}
+                        endYear={2003}
+                        jobName="Cryptography Team Lead, Royal Norwegian Air Force "
+                        jobDescription="Corporal in the Communications squad in Bodø, Norway. My role was a team lead was to manage the Crypto unit to generate and distribute cryptographic keys to ground and air units, and to set up a radio-linked network over large distances during military exercises."
+                      />
               <hr style={{borderTop: '3px solid #f0145f'}} />
               <h2>Skills</h2>
               <Skills

@@ -40,9 +40,6 @@ class Projects extends Component {
 
               <Button colored><a href="https://github.com/kjartur/portfolio" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           {/* Project 3 */}
@@ -55,9 +52,6 @@ class Projects extends Component {
               <Button colored><a href="https://github.com/kjartur/mealshare" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
               <Button colored><a href="http://mealshare-berlin.herokuapp.com" target="_blank" rel="noopener noreferrer">Live Demo</a></Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
         </div>
 
@@ -76,9 +70,6 @@ class Projects extends Component {
 
               <Button colored><a href="https://halo.coffee" target="_blank" rel="noopener noreferrer">Live Site</a></Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
           </div>
       )
@@ -95,11 +86,34 @@ class Projects extends Component {
 
               <Button colored><a href="https://www.kjartanmanvelyan.com" target="_blank" rel="noopener noreferrer">Live Site</a></Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
+          </Card>
+
+
+         {/* Project 2 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/tpdG7BJ/Screen-Shot-2019-09-30-at-17-06-35.png) center / cover'}} >Python API</CardTitle>
+            <CardText>
+              A Dockerized, Python REST API microservice.
+            </CardText>
+            <CardActions border>
+
+              <Button colored><a href="https://github.com/kjartur/python-api" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+            </CardActions>
+          </Card>
+
+         {/* Project 3 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/m9XBbP5/Screen-Shot-2019-09-30-at-17-21-57.png) center / cover'}} >Mr Cocktail</CardTitle>
+            <CardText>
+              A Rails-based web application running HTML, CSS and JavaScript.
+            </CardText>
+             <CardActions border>
+
+              <Button colored><a href="https://github.com/kjartur/rails-mister-cocktail" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+            </CardActions>
           </Card>
           </div>
+
       )
     } else if(this.state.activeTab === 3) {
       return (
