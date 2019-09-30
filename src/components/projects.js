@@ -117,7 +117,7 @@ class Projects extends Component {
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab>Rails/React</Tab>
           <Tab>Shopify</Tab>
-          <Tab>Wordpress</Tab>
+          <Tab>Other</Tab>
         </Tabs>
 
 

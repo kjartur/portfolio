@@ -17,7 +17,7 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Kjartan Manvelyan</h1>
           <h3><i>Software Developer</i></h3>
-          <p>I'm a Scandinavian fullstack developer and entrepreneur, and an alumni of Le Wagon, a top ranked coding school. My main interests are DevOps and web application development. I'm a big fan of cloud computing and automation.</p>
+          <p>I'm a Scandinavian fullstack developer and entrepreneur, and an alumni of Le Wagon, the fullstack coding school. My main interests are DevOps and web application development. I'm also a big fan of cloud computing and automation.</p>
             <hr/>
 
           <p><b>HTML/CSS | Ruby/Rails | JavaScript | React | Git | Docker | AWS</b></p>
