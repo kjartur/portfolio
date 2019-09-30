@@ -99,7 +99,7 @@ class Resume extends Component {
                         startYear={2002}
                         endYear={2003}
                         jobName="Cryptography Team Lead, Royal Norwegian Air Force "
-                        jobDescription="Corporal in the Communications squad in Bodø, Norway. My role as team lead was to lead the Crypto team and generate and distribute cryptographic keys to ground and air units, and to set up a radio-linked network over large distances during military exercises."
+                        jobDescription="Corporal in the Communications squad in Bodø, Norway. My role was to generate and distribute cryptographic keys to ground and air units, and to set up a radio-linked network over large distances during military exercises."
                       />
               <hr style={{borderTop: '3px solid #f0145f'}} />
               <h2>Skills</h2>
