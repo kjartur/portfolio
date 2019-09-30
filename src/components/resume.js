@@ -18,7 +18,7 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>Biography</h2>
             <h4 style={{color: 'white'}}>Kjartan Manvelyan</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Hi, I'm Kjartan, a Norwegian fullstack developer and entrepreneur. I grew up on a small island on the Arctic Circle, and have been a technologist since I built my first computer in the 80s. My main interests are DevOps and web application development.
+            <p>Hi, I'm Kjartan. I grew up on a small island on the Arctic Circle, and have been a technologist since I built my first computer in the 80s. My main interests are DevOps and web application development.
             <p></p><p>I am currently in the process of taking the AWS Solutions Architect Associate certification, and plan to move on to Kubernetes thereafter.</p>
             </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
@@ -31,8 +31,6 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
-
-
             <Education
               startYear={2019}
               endYear={2019}
@@ -40,7 +38,7 @@ class Resume extends Component {
               schoolDescription="
               Le Wagon is ranked as the worlds best coding bootcamp for the past 3 years. Lecture and exercise topics includes:
               Ruby, Ruby on Rails, OOP, APIs, JSON, Scraping, Relational DB, SQL, Postgresql, HTML, CSS, Bootstrap, JavaScript ES6, React, Wireframing, Prototyping, UI Design, Test Driven Development, Git, Github, Technical Workflow."
-               />
+              />
 
                <Education
                  startYear={2003}
@@ -50,13 +48,13 @@ class Resume extends Component {
                   />
 
                   <Education
-                 startYear={2004}
-                 endYear={2010}
-                 schoolName="University Medical School of Pécs"
-                 schoolDescription="Medical Doctor programme"
-                  />
-                <hr style={{borderTop: '3px solid #f0145f'}} />
+                    startYear={2004}
+                    endYear={2010}
+                    schoolName="University Medical School of Pécs"
+                    schoolDescription="Medical Doctor programme"
+                    />
 
+              <hr style={{borderTop: '3px solid #f0145f'}} />
               <h2>Experience</h2>
 
             <Experience
@@ -71,7 +69,6 @@ class Resume extends Component {
                 endYear={2019}
                 jobName="Co-founder, KoanVR"
                 jobDescription="KoanVR is a health-tech startup in Berlin. We provide VR therapy for medium and large sized companies to reduce stress levels and drastically improve the work atmosphere and well-being of employees."
-
                 />
 
                 <Experience
@@ -100,7 +97,8 @@ class Resume extends Component {
                         endYear={2003}
                         jobName="Cryptography Team Lead, Royal Norwegian Air Force "
                         jobDescription="Corporal in the Communications squad in Bodø, Norway. My role was to generate and distribute cryptographic keys to ground and air units, and to set up a radio-linked network over large distances during military exercises."
-                      />
+                        />
+
               <hr style={{borderTop: '3px solid #f0145f'}} />
               <h2>Skills</h2>
               <Skills
