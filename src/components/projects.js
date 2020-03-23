@@ -91,13 +91,13 @@ class Projects extends Component {
 
          {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.ibb.co/tpdG7BJ/Screen-Shot-2019-09-30-at-17-06-35.png) center / cover'}} >Python API</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/48540892/77366426-46c3ad00-6d58-11ea-8d29-12257e2a279c.png) center / cover'}} >Python API</CardTitle>
             <CardText>
-              A Dockerized, Python REST API microservice.
+              Customized Wordpress site for the German insurance company QIRA.
             </CardText>
             <CardActions border>
 
-              <Button colored><a href="https://github.com/kjartur/python-api" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+              <Button colored><a href="http://qira.de" target="_blank" rel="noopener noreferrer">Live Site</a></Button>
             </CardActions>
           </Card>
 
