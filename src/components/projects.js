@@ -97,7 +97,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
 
-              <Button colored><a href="http://qira.de" target="_blank" rel="noopener noreferrer">Live Site</a></Button>
+              <Button colored><a href="http://qira.de" target="_blank" rel="noopener noreferrer">Live Site </a></Button>
             </CardActions>
           </Card>
 
