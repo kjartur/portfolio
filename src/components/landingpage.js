@@ -17,7 +17,7 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Kjartan Manvelyan</h1>
           <h3><i>Software Developer</i></h3>
-          <p>I'm a Scandinavian fullstack developer and entrepreneur, and an alumni of Le Wagon, the fullstack coding school. My main interests are DevOps and web application development. I'm also a big fan of cloud computing and automation.</p>
+          <p>I'm a Scandinavian fullstack developer and entrepreneur, and an alumni of Le Wagon, a fullstack coding school. My main interests in tech lies within the fields of social entrepreneurship, blockchain technologies and web application development. Please visit my LinkedIn if you want to connect.</p>
             <hr/>
 
           <p><b>HTML/CSS | Ruby/Rails | JavaScript | React | Git | Docker | AWS</b></p>
@@ -29,10 +29,6 @@ class Landing extends Component {
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
 
-          {/* Github */}
-          <a href="http://github.com/kjartur" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-github-square" aria-hidden="true" />
-          </a>
 
           {/* AngelList */}
           <a href="https://angel.co/kjartan-manvelyan" rel="noopener noreferrer" target="_blank">

@@ -18,14 +18,13 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>Biography</h2>
             <h4 style={{color: 'white'}}>Kjartan Manvelyan</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Hi, I'm Kjartan. I grew up on a small island on the Arctic Circle, and have been a technologist since I built my first computer in the 80s. My main interests are DevOps and web application development.
-            <p></p><p>I am currently in the process of taking the AWS Solutions Architect Associate certification, and plan to move on to Kubernetes thereafter.</p>
+            <p>Hi, I'm Kjartan. I grew up on a small island on the Arctic Circle, and have been a technologist since I built my first computer in the 80s.</p>
             </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>RESIDENCE</h5>
             <p>Berlin, Germany</p>
             <h5>WORKING PERMIT</h5>
-            <p>I have <b>full</b> working permissions both in EU and Norway.</p>
+            <p>I have <b>full</b> working permissions both in EU and Norway, and manage a team of developers that are capable of taking on projects of any size.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             </div>
           </Cell>
@@ -44,7 +43,7 @@ class Resume extends Component {
                  startYear={2003}
                  endYear={2004}
                  schoolName="Norwegian University of Science and Technology"
-                 schoolDescription="I was headhunted to a consultant position at Norwegian Data Centre after the first semester. Since I also studied computer science at Nesna University College at the age of 16, I have about half of a bachelors degree in Computer Science."
+                 schoolDescription="I was headhunted to a consultant position at Norwegian Data Centre after my first semester."
                   />
 
                   <Education
@@ -59,9 +58,9 @@ class Resume extends Component {
 
             <Experience
               startYear={2018}
-              endYear={2019}
-              jobName="Fullstack Developer / Consultant"
-              jobDescription="Technical consultations for startups, Ruby and Wordpress development, SEO consultations."
+              endYear={2021}
+              jobName="Fullstack Developer / Startup Consultant"
+              jobDescription="Technical consultations and project managment for startups."
               />
 
               <Experience
